@@ -3371,7 +3371,7 @@ body.is-menu-visible #menu {
 }
 
 
-/* Banner */
+/* Banner ----------------------------------------------------------------------------------------------------------*/
 
 #banner {
     display: -moz-flex;
@@ -3782,8 +3782,15 @@ body.is-mobile.landing .wrapper.style4 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* prevent wrapped text */
 }
 
 body.is-mobile.landing #footer {
     background-color: #1d242a;
+}
+
+.services {
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 0.225em;
 }
