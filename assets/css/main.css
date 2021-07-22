@@ -1948,8 +1948,8 @@ input[type="radio"]+label:before {
 
 .image.fit {
     display: block;
-    margin: 0 0 2em 0;
-    width: 100%;
+    margin: auto;
+    max-width: 30%;
 }
 
 .image.fit img {
@@ -3793,4 +3793,8 @@ body.is-mobile.landing #footer {
     text-transform: uppercase;
     list-style-type: none;
     letter-spacing: 0.225em;
+}
+
+.centered_pic {
+    display: block;
 }
