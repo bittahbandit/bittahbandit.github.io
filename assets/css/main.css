@@ -3288,6 +3288,11 @@ body.is-menu-visible #menu {
     display: block;
     height: inherit;
     line-height: inherit;
+    /* icon left of banner */
+    background-image: url("../../images/umbrella.png");
+    background-repeat: no-repeat;
+    padding-left: 4em;
+    background-size: 3em;
 }
 
 @media screen and (max-width: 736px) {
@@ -3795,6 +3800,17 @@ body.is-mobile.landing #footer {
     letter-spacing: 0.225em;
 }
 
-.centered_pic {
+.profile_pic {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+}
+
+.front_page_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    padding-bottom: 2em;
 }
